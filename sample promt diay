@@ -1,0 +1,571 @@
+# UNIVERSAL WEB APPLICATION ENGINEER
+## 1000+ PROFESSIONAL AI PROMPT DIARY
+### BY PRANJALAM108
+---
+# CHAPTER 05 – 🎨 UI/UX DESIGN ENGINEERING
+**Prompts WA-061 to WA-075**
+---
+**PROMPT CODE:** WA-061
+**DIFFICULTY:** BASIC
+**EMOJI:** 🎨
+**PROMPT:**
+```
+You are a senior UI/UX designer and design educator. Create a complete UI design brief
+for my web application that a designer or developer can use to produce consistent
+screens. Include: (1) product summary and target audience, (2) design personality and
+mood (3 adjectives with what to avoid), (3) color system with hex codes for primary,
+secondary, accent, semantic (success, warning, error, info), neutrals, and background
+layers — with WCAG AA contrast validation for text-on-background combinations, (4)
+typography scale with font families, sizes, weights, line-heights, and usage rules for
+headings, body, captions, and code, (5) spacing scale (4px or 8px system) with
+examples, (6) border radius and shadow scale, (7) iconography style recommendation
+and library, (8) imagery and illustration direction, (9) motion and animation principles with
+duration and easing tokens, (10) five reference websites with what to learn from each,and (11) a starter UI kit listing buttons, inputs, cards, modals, and navigation patterns.
+My application is: [DESCRIBE YOUR APPLICATION AND TARGET AUDIENCE].
+```
+**REFERENCE – ENGLISH:**
+This prompt is used before designing or building any UI to establish a coherent visual
+foundation. It solves the problem of inconsistent screens that look assembled from
+different products. The practical application is a documented brief that keeps design and
+development aligned. Beneficial for solo founders building without a designer, freelance
+developers delivering polished products, and small teams standardizing their visual
+language.
+**REFERENCE – HINDI + ENGLISH:**
+Yeh prompt kisi bhi UI design ya development shuru karne se pehle use karo — taaki ek
+coherent visual foundation ban sake. Bahut applications ke screens alag-alag products
+se assembled lagte hain kyunki koi design system nahi hota. Isse complete UI design
+brief milega — color system with WCAG contrast validation, typography scale, spacing
+system, shadows, iconography, motion principles, reference websites, aur starter UI kit
+ke saath. Solo founders jo bina designer ke build kar rahe hain, freelance developers jo
+polished product dena chahte hain, aur small teams jo visual language standardize
+karna chahte hain — sabke liye bahut useful hai.
+---
+**PROMPT CODE:** WA-062
+**DIFFICULTY:** BASIC
+**EMOJI:** 🧭
+**PROMPT:**```
+Act as a UX researcher and information architect. Design a complete user flow and
+information architecture for my web application. Deliver: (1) a sitemap showing every
+screen and its hierarchy with page IDs, (2) primary navigation structure (top nav, sidebar,
+footer, breadcrumbs) with label recommendations, (3) detailed user flows for the 5 most
+critical tasks in the app — each flow described step-by-step with decision points, error
+states, and success states, (4) an entry points analysis showing how users arrive at each
+flow (direct, search, email, referral, in-app), (5) empty states, loading states, and error
+states for every screen, (6) back-navigation and escape routes from every screen (no
+dead ends), (7) mobile vs desktop navigation differences, (8) accessibility considerations
+per navigation pattern, and (9) a user journey map for the primary persona covering
+awareness through advocacy. My application is: [DESCRIBE YOUR APPLICATION AND
+KEY USER TASKS].
+```
+**REFERENCE – ENGLISH:**
+This prompt is used during product design to ensure users can actually complete critical
+tasks without confusion. It solves the problem of features that exist but are not
+discoverable, or flows that break in edge cases. The practical application is a
+documented flow map that guides both design and development. Beneficial for UI/UX
+designers, frontend developers, product managers, and founders who want to prevent
+users from getting lost.
+**REFERENCE – HINDI + ENGLISH:**
+Yeh prompt product design ke time use karo taaki users critical tasks bina confusion ke
+complete kar sakein. Bahut features exist karte hain lekin discoverable nahi hote, ya
+flows edge cases mein break ho jaate hain. Isse complete IA aur flow map milega —
+sitemap, navigation structure, 5 critical task flows with decision points, entry points,
+empty/loading/error states, no dead-end navigation, mobile vs desktop differences,
+accessibility per pattern, aur user journey map ke saath. UI/UX designers, frontend
+developers, product managers, aur founders ke liye useful hai jo users ko lost hone se
+bachana chahte hain.---
+**PROMPT CODE:** WA-063
+**DIFFICULTY:** BASIC
+**EMOJI:** 📱
+**PROMPT:**
+```
+You are a mobile-first UX designer. Design a complete set of wireframe descriptions for
+the 10 most important screens of my web application. For each screen provide: (1)
+screen name and purpose, (2) mobile layout description (top-to-bottom, thumb-zone
+considerations), (3) tablet layout description, (4) desktop layout description, (5) all UI
+elements with size and position guidance, (6) interactions and micro-animations, (7)
+content requirements including placeholder text and real example content, (8)
+accessibility notes including focus order, (9) empty, loading, and error states, and (10)
+SEO and semantic HTML considerations for that screen. Format these as detailed text
+specifications a developer can build from without needing an image. My application and
+its key screens are: [DESCRIBE YOUR APPLICATION AND SCREENS].
+```
+**REFERENCE – ENGLISH:**
+This prompt is used when moving from an abstract design to actual screen
+implementation. It solves the problem of vague design handoffs where developers guess
+at layout, spacing, and states. The practical application is written specifications that let
+development begin even without high-fidelity mockups. Beneficial for frontend
+developers, UI/UX designers, QA engineers verifying against spec, and freelancers
+working in design-dev combined roles.**REFERENCE – HINDI + ENGLISH:**
+Yeh prompt tab use karo jab abstract design se actual screen implementation pe move
+karna ho. Bahut design handoffs vague hote hain — developers layout, spacing, aur
+states guess karte hain. Isse 10 important screens ke detailed text specifications milenge
+— mobile/tablet/desktop layouts, UI elements, interactions, micro-animations, content,
+accessibility, empty/loading/error states, aur SEO notes ke saath. High-fidelity mockups
+ke bina bhi development shuru ho sakta hai. Frontend developers, UI/UX designers, QA
+engineers, aur design-dev combined roles mein kaam karne wale freelancers ke liye
+bahut useful hai.
+---
+**PROMPT CODE:** WA-064
+**DIFFICULTY:** BASIC
+**EMOJI:** 🧩
+**PROMPT:**
+```
+Act as a UI component designer and systems thinker. Create a complete component
+library specification for my web application. For each of the following components
+provide full design and behavior specs: Button (all variants, sizes, states), Input (text,
+email, password, number, search, textarea), Select and Dropdown, Checkbox and
+Radio, Toggle switch, Date picker, File upload, Table, Pagination, Card, Modal and
+Drawer, Toast and Alert, Tooltip and Popover, Tabs, Accordion, Breadcrumbs, Stepper,
+Avatar, Badge, Progress indicator, Skeleton loader, and Empty state. For each
+component specify: purpose, variants, all states (default, hover, focus, active, disabled,
+loading, error, success), dimensions with exact pixel values, accessibility requirements
+(ARIA roles, keyboard interactions), and copy guidelines for labels, placeholders, and
+error messages. Include a component naming convention and a documentation
+template. My application is: [DESCRIBE YOUR APPLICATION].```
+**REFERENCE – ENGLISH:**
+This prompt is used when building a design system or standardizing UI components
+across a project or team. It solves the problem of every developer inventing their own
+button styles, resulting in inconsistent products and duplicated work. The practical
+application is a documented component spec that becomes the source of truth for
+implementation. Beneficial for UI/UX designers, frontend developers, design system
+engineers, and teams preparing for multi-developer scale.
+**REFERENCE – HINDI + ENGLISH:**
+Yeh prompt tab use karo jab design system build karna ho ya UI components ko project
+ya team ke across standardize karna ho. Bahut projects mein har developer apna button
+style invent karta hai — result inconsistent product aur duplicated work. Isse 22+
+components ki detailed specification milegi — variants, all states (hover, focus, disabled,
+loading, error), exact dimensions, ARIA roles, keyboard interactions, aur copy guidelines
+ke saath. Component naming convention aur documentation template bhi milega. UI/UX
+designers, frontend developers, design system engineers, aur multi-developer scale ki
+taiyari karne wali teams ke liye bahut valuable hai.
+---
+**PROMPT CODE: WA-065**
+**DIFFICULTY: BASIC
+**EMOJI:** 🎭
+**PROMPT:**
+```You are a UX writer and content strategist for web applications. Create a complete UX
+copy style guide for my application. Include: (1) brand voice principles with 3 dos and 3
+don'ts, (2) tone variations for different contexts (onboarding, errors, success, empty
+states, warnings, destructive actions, celebrations), (3) microcopy templates for the 20
+most common UI text types — button labels, form field labels, placeholders, helper text,
+error messages, success messages, confirmation dialogs, empty states, loading
+messages, notifications, email subjects, push notifications, onboarding tooltips, 404
+pages, offline states, session timeouts, permission requests, cookie consent, feature
+announcements, and upgrade prompts, (4) localization considerations for Hindi, English,
+and other Indian languages — including character length variations and cultural context,
+(5) accessibility writing guidelines — plain language, sentence length, reading level, (6)
+formatting rules for capitalisation, punctuation, numbers, dates, currency (INR and USD),
+and technical terms, (7) a terminology glossary to enforce consistency, and (8) 10
+before/after examples showing poor copy transformed into professional UX copy. My
+application is: [DESCRIBE YOUR APPLICATION AND ITS USER JOURNEY].
+```
+**REFERENCE – ENGLISH:**
+This prompt is used when product copy feels inconsistent, robotic, or confusing. It solves
+the problem of engineers writing UI text ad hoc, which results in inconsistent voice and
+unclear messaging. The practical application is a copy playbook that anyone on the team
+can follow. Beneficial for founders, frontend developers who write their own copy, product
+managers, and designers needing a documentation reference.
+**REFERENCE – HINDI + ENGLISH:**
+Yeh prompt tab use karo jab product copy inconsistent, robotic, ya confusing lage. Bahut
+teams mein UI text ad hoc likha jata hai — result inconsistent voice aur unclear
+messaging. Isse complete UX copy style guide milega — brand voice principles, 7
+contexts ke tone variations, 20 most common UI text types ke microcopy templates
+(button labels, error messages, empty states, notifications, cookie consent, etc.),
+localization considerations (Hindi, English, Indian languages), accessibility writing
+guidelines, formatting rules (INR + USD currency), terminology glossary, aur 10before/after examples ke saath. Founders, apna copy likhne wale frontend developers,
+product managers, aur designers ke liye bahut practical playbook hai.
+---
+**PROMPT CODE:** WA-066
+**DIFFICULTY:** INTERMEDIATE
+**EMOJI:** 🔄
+**PROMPT:**
+```
+Act as a UX researcher. Design a complete usability testing and user research plan for
+my web application. Include: (1) research questions prioritized by importance, (2)
+methodology selection — moderated vs unmoderated, remote vs in-person, formative vs
+summative — with the right approach for each research question, (3) participant
+recruitment criteria including sample size calculation with justification, and consideration
+for Indian and international user diversity, (4) a complete usability test script with warmup, task scenarios, and wrap-up questions, (5) task scenarios for testing the 5 most
+critical user flows, (6) what to observe and measure (task success rate, time on task,
+error rate, satisfaction, NPS), (7) a findings synthesis template with severity classification
+(P0–P3), (8) recommendations for tools (Maze, UserTesting, Lookback) with INR and
+USD costs, (9) an analysis framework for converting findings into actionable
+improvements, and (10) a plan for sharing insights with the team. My application is:
+[DESCRIBE YOUR APPLICATION AND KEY USER FLOWS].
+```
+**REFERENCE – ENGLISH:**
+This prompt is used when you need real user feedback but are unsure how to structure
+the research. It solves the problem of building features based on internal opinions ratherthan actual user behavior. The practical application is a documented research plan that
+any team member can execute. Beneficial for product managers, UX designers,
+founders before major releases, and freelancers who want to validate assumptions with
+clients.
+**REFERENCE – HINDI + ENGLISH:**
+Yeh prompt tab use karo jab real user feedback chahiye lekin research structure ka pata
+nahi. Bahut features internal opinions pe banti hain — actual user behavior pe nahi. Isse
+complete usability testing plan milega — prioritized research questions, methodology
+selection, participant recruitment (Indian + international diversity ke saath), complete test
+script, task scenarios, measurement criteria (success rate, time on task, NPS), findings
+synthesis template with severity, tools recommendations with INR + USD costs, analysis
+framework, aur team sharing plan ke saath. Product managers, UX designers, major
+releases se pehle founders, aur assumptions validate karne wale freelancers ke liye
+bahut useful hai.
+---
+**PROMPT CODE: WA-067
+**DIFFICULTY: INTERMEDIATE
+**EMOJI:** 📱
+**PROMPT:**
+```
+You are a conversion-focused UX designer and CRO (Conversion Rate Optimization)
+specialist. Audit and redesign my application's conversion funnel. Provide: (1) a funnel
+map showing every step from first visit to completed goal (signup, purchase,
+subscription) with drop-off analysis, (2) common conversion killers specific to my industry
+and their fixes, (3) a detailed redesign of the highest-impact 5 screens with concretechanges — copy, layout, CTAs, trust signals, form fields, social proof, and urgency
+elements, (4) a form design optimization guide covering field reduction, smart defaults,
+inline validation, progress indicators, and mobile keyboard optimization, (5) social proof
+strategy — testimonials, reviews, logos, user counts — with placement
+recommendations, (6) pricing page design best practices with tier comparison,
+anchoring, and objection handling, (7) checkout or signup flow optimization with guest
+checkout, saved payment methods, and error recovery, (8) A/B testing framework with 5
+hypotheses ranked by expected impact, and (9) ethical UX guidelines — dark patterns to
+avoid even if they boost short-term conversion. My application is: [DESCRIBE
+APPLICATION, CURRENT FUNNEL, AND INDUSTRY].
+```
+**REFERENCE – ENGLISH:**
+This prompt is used when traffic is coming but conversions are low. It solves the problem
+of losing potential customers at every step without understanding why. The practical
+application is a documented conversion optimization plan with specific, testable changes.
+Beneficial for growth engineers, product managers, e-commerce founders, SaaS
+founders, and freelance developers who help clients improve revenue.
+**REFERENCE – HINDI + ENGLISH:**
+Yeh prompt tab use karo jab traffic aa raha hai lekin conversions low hain. Bahut
+potential customers har step pe lose ho jaate hain — kyun, yeh pata nahi hota. Isse
+complete conversion optimization plan milega — funnel map with drop-off analysis,
+industry-specific conversion killers, top 5 screens ka redesign with concrete changes,
+form optimization (field reduction, smart defaults, mobile keyboards), social proof
+strategy, pricing page best practices, checkout optimization, A/B testing framework with 5
+ranked hypotheses, aur ethical UX guidelines (dark patterns to avoid) ke saath. Growth
+engineers, product managers, e-commerce/SaaS founders, aur clients ki revenue
+improve karne wale freelance developers ke liye bahut valuable hai.
+---**PROMPT CODE: WA-068
+**DIFFICULTY: INTERMEDIATE
+**EMOJI:** 🎬
+**PROMPT:**
+```
+Act as a motion design specialist. Create a complete animation and micro-interaction
+specification for my web application. Include: (1) motion principles and personality —
+how motion should feel (playful, professional, energetic, calm), (2) a duration and easing
+token system (fast, normal, slow, entrance, exit, emphasis) with exact millisecond values,
+(3) animation specifications for 20 essential UI interactions: page transitions, modal
+open/close, drawer slide, dropdown reveal, button press, loading indicators, skeleton to
+content transition, toast slide-in, form validation feedback, error shake, success
+checkmark, hover states, focus transitions, tab switching, accordion expand, tooltip
+appear, list item entrance, card hover, notification bell bounce, and drag-and-drop
+feedback, (4) CSS code examples for each using modern techniques (transitions,
+keyframes, @starting-style, View Transitions API), (5) performance optimization —
+hardware-accelerated properties, will-change usage, and what to avoid, (6) accessibility
+considerations for prefers-reduced-motion, and (7) a debugging guide for animation jank.
+My application's brand personality is: [DESCRIBE YOUR BRAND PERSONALITY].
+```
+**REFERENCE – ENGLISH:**
+This prompt is used when the app feels lifeless or, conversely, when animations feel
+janky and inconsistent. It solves the problem of animations being added ad hoc without a
+coherent motion language. The practical application is a motion system that adds
+perceived quality and delight without hurting performance. Beneficial for frontend
+developers, UI designers, and product teams wanting to elevate perceived quality of their
+application.**REFERENCE – HINDI + ENGLISH:**
+Yeh prompt tab use karo jab app lifeless lage ya animations janky aur inconsistent hon.
+Bahut applications mein animations ad hoc add hoti hain — koi coherent motion
+language nahi hoti. Isse complete motion design system milega — motion principles,
+duration and easing tokens (exact ms values), 20 essential UI interactions ki animation
+specs (page transitions, modals, toasts, form validation, success states, etc.), modern
+CSS code examples (transitions, keyframes, View Transitions API), performance
+optimization, prefers-reduced-motion accessibility, aur debugging guide ke saath.
+Frontend developers, UI designers, aur perceived quality elevate karna chahte product
+teams ke liye bahut useful hai.
+---
+**PROMPT CODE: WA-069
+**DIFFICULTY: INTERMEDIATE
+**EMOJI:** 🖌
+**PROMPT:**
+```
+You are a design system architect. Design a complete design token architecture for my
+web application that supports multiple themes (light/dark), multi-brand, and multi-platform
+(web, mobile web). Deliver: (1) token taxonomy — primitive tokens, semantic tokens,
+component tokens — with naming conventions, (2) a complete token table covering
+colors, typography, spacing, sizing, borders, shadows, opacity, and z-index with example
+values and usage rules, (3) light and dark theme token mappings showing which tokens
+change between themes, (4) implementation approaches comparison — CSS custom
+properties, JS theme objects (styled-components/emotion), Tailwind config — with
+recommendation for my stack, (5) a token transformation pipeline (Figma Tokens Studio
+→ JSON → CSS/JS) for keeping design and code in sync, (6) governance rules — who
+can add tokens, deprecation process, versioning, (7) multi-brand support strategy forwhite-label or multi-tenant SaaS, (8) documentation structure for developers to discover
+and use tokens correctly, and (9) migration plan from hardcoded values to tokens without
+breaking existing UI. My stack is: [DESCRIBE YOUR STACK AND CURRENT THEMING
+APPROACH].
+```
+**REFERENCE – ENGLISH:**
+This prompt is used when building for multiple themes, brands, or platforms and when
+design-code sync is becoming a problem. It solves the problem of hardcoded colors and
+spacing scattered across the codebase, making theme changes a nightmare. The
+practical application is a maintainable token system that scales with product growth.
+Beneficial for design system engineers, frontend architects, tech leads, and SaaS
+companies preparing for white-labeling.
+**REFERENCE – HINDI + ENGLISH:**
+Yeh prompt tab use karo jab multiple themes, brands, ya platforms ke liye build kar rahe
+ho aur design-code sync problem ban raha hai. Bahut codebases mein hardcoded colors
+aur spacing scattered hote hain — theme change karna nightmare ban jaata hai. Isse
+complete design token architecture milega — token taxonomy
+(primitive/semantic/component), complete token table, light/dark theme mappings,
+implementation approaches (CSS custom properties, JS theme objects, Tailwind config),
+Figma-to-code pipeline, governance rules, multi-brand strategy, documentation structure,
+aur migration plan ke saath. Design system engineers, frontend architects, tech leads,
+aur white-labeling ki taiyari karne wali SaaS companies ke liye bahut valuable hai.
+---
+**PROMPT CODE: WA-070
+**DIFFICULTY: INTERMEDIATE**EMOJI:** 📊
+**PROMPT:**
+```
+Act as a data visualization and dashboard UX expert. Design the complete UX for the
+analytics dashboard in my web application. Cover: (1) dashboard purpose definition and
+the top 5 questions it must answer immediately, (2) information hierarchy — what
+appears above the fold, what is secondary, what is drill-down, (3) widget selection guide
+— KPI cards, time series charts, bar charts, pie charts, tables, heatmaps, funnels — with
+the right chart for each data type, (4) chart design best practices — color usage, axes,
+labels, legends, tooltips, empty states, (5) filter design — date ranges, segments,
+comparison modes — with UX for applying, clearing, and saving filters, (6) drill-down and
+cross-filtering interaction patterns, (7) real-time data update UX with refresh rate and
+visual change indicators, (8) export functionality (CSV, PDF, image) and scheduled report
+delivery, (9) mobile-responsive dashboard design, (10) accessibility for data visualization
+— colorblind-safe palettes, screen reader descriptions, (11) performance guidance for
+dashboards with large datasets (query optimization, pagination, virtualization), and (12) a
+full screen specification for the main dashboard using realistic example data. My
+application and data available are: [DESCRIBE APPLICATION AND DATA].
+```
+**REFERENCE – ENGLISH:**
+This prompt is used when building any analytics, admin, or reporting dashboard. It solves
+the problem of dashboards that show everything but answer nothing, or charts that
+mislead with wrong chart types. The practical application is a documented dashboard
+design that delivers immediate insight and supports deep analysis. Beneficial for product
+managers, UI designers, frontend developers, and SaaS founders building analytics
+features.
+**REFERENCE – HINDI + ENGLISH:**
+Yeh prompt tab use karo jab analytics, admin, ya reporting dashboard bana rahe ho.
+Bahut dashboards sab kuch dikhate hain lekin kuch answer nahi karte, ya galat charttypes se mislead karte hain. Isse complete dashboard UX design milegi — purpose
+definition, information hierarchy, widget selection (right chart for right data), chart best
+practices, filter design, drill-down patterns, real-time updates, export functionality, mobile
+design, accessibility (colorblind-safe palettes), performance guidance, aur full screen
+specification ke saath. Product managers, UI designers, frontend developers, aur SaaS
+founders ke liye bahut valuable hai.
+---
+**PROMPT CODE: WA-071
+**DIFFICULTY: INTERMEDIATE
+**EMOJI:** 📝
+**PROMPT:**
+```
+You are a forms UX specialist. Design a complete forms experience guide for my web
+application. Cover: (1) form architecture principles — minimize fields, group logically,
+progressive disclosure, single-column layout, (2) field-level design specs for text, email,
+password, phone, number, date, time, select, multi-select, radio, checkbox, file upload,
+rich text, address, and payment fields — with the right input type, mobile keyboard, and
+validation timing for each, (3) validation strategy — when to validate inline vs on submit
+vs on blur, error message writing, success state design, and how to preserve data after
+error, (4) multi-step form design with progress indicators, save-and-resume, back
+navigation, and preventing data loss, (5) form accessibility — labels, ARIA, error
+announcement for screen readers, keyboard navigation, focus management after
+submission, (6) Indian and international form challenges — phone number formats,
+address structures, date formats (DD/MM/YYYY vs MM/DD/YYYY), currency fields,
+GST/PAN (Indian) vs international tax IDs, name structures, and language-specific
+inputs, (7) forms for file uploads including drag-drop, image preview, file size limits, and
+progress indicators, (8) a conversion-optimized signup and checkout form example withbefore/after analysis, (9) form performance considerations, and (10) a complete form
+design checklist for QA testing. My application's forms are: [DESCRIBE YOUR FORMS].
+```
+**REFERENCE – ENGLISH:**
+This prompt is used whenever building signup, checkout, KYC, onboarding, or any data
+entry forms. It solves the problem of high form abandonment due to poor UX and
+country-specific issues like address and phone validation that break for Indian users. The
+practical application is a forms playbook that improves conversion and reduces errors.
+Beneficial for frontend developers, product managers, UX designers, and any team
+building fintech, e-commerce, or enterprise apps with complex forms.
+**REFERENCE – HINDI + ENGLISH:**
+Yeh prompt tab use karo jab signup, checkout, KYC, onboarding, ya koi bhi data entry
+form bana rahe ho. Bahut forms isliye abandon ho jaate hain kyunki UX poor hoti hai ya
+Indian users ke liye address/phone validation break ho jaata hai. Isse complete forms
+playbook milega — architecture principles, 15+ field types ki detailed specs, validation
+strategy, multi-step forms, accessibility, Indian vs international form challenges (phone,
+address, date formats, GST/PAN, name structures), file upload UX, conversionoptimized examples, performance, aur QA checklist ke saath. Frontend developers,
+product managers, UX designers, aur fintech/e-commerce/enterprise apps banane wale
+teams ke liye bahut valuable hai.
+---
+**PROMPT CODE: WA-072
+**DIFFICULTY: INTERMEDIATE
+**EMOJI:** 🧠**PROMPT:**
+```
+Act as an onboarding UX expert and behavioral designer. Design a complete user
+onboarding experience for my web application. Deliver: (1) the "aha moment" definition
+— the specific action that correlates with retention in my type of app, (2) an onboarding
+journey map covering first visit, account creation, first value, habit formation, and
+ongoing engagement with time milestones, (3) onboarding flow options comparison —
+guided tour, interactive checklist, sample data walkthrough, progressive onboarding, or
+product tours — with the right approach for my app, (4) email sequence design covering
+welcome, activation nudges, feature discovery, re-engagement for inactive users, with
+subject lines and body outlines, (5) empty state design for new accounts — how each
+empty screen becomes a teaching opportunity, (6) progressive disclosure strategy for
+advanced features, (7) personalization during onboarding — questions to ask, how to
+use answers, and what NOT to ask, (8) behavioral psychology principles applied
+ethically — social proof, loss aversion, commitment, completion bias — with concrete
+applications, (9) metrics framework — activation rate, time-to-value, drop-off points,
+retention cohorts — with benchmarks for my industry, (10) A/B testing roadmap with 5
+experiments, and (11) international considerations for onboarding copy and cultural
+expectations. My application is: [DESCRIBE APPLICATION, TARGET USERS, AND
+CORE ACTION].
+```
+**REFERENCE – ENGLISH:**
+This prompt is used when user sign-ups are happening but users are not activating or
+returning. It solves the problem of new users who do not understand the value or do not
+know what to do next. The practical application is a documented onboarding system that
+converts signups into engaged users. Beneficial for product managers, growth
+engineers, founders, and UX designers working on activation and retention.
+**REFERENCE – HINDI + ENGLISH:**
+Yeh prompt tab use karo jab sign-ups toh ho rahe hain lekin users activate ya return nahi
+kar rahe. Bahut new users value samajh nahi paate ya next step nahi jaante — churn hojaate hain. Isse complete onboarding system milega — "aha moment" definition, journey
+map, flow options comparison, email sequence, empty state design as teaching
+opportunities, progressive disclosure, personalization strategy, behavioral psychology
+(social proof, loss aversion) ethical application, activation metrics framework with
+benchmarks, A/B testing roadmap, aur international considerations ke saath. Product
+managers, growth engineers, founders, aur activation/retention pe kaam karne wale UX
+designers ke liye bahut valuable hai.
+---
+**PROMPT CODE: WA-073
+**DIFFICULTY: INTERMEDIATE
+**EMOJI:** 🎨
+**PROMPT:**
+```
+You are a UX design leader specializing in design review and critique. Perform a
+comprehensive UX audit of my web application and provide a prioritized improvement
+roadmap. My application is described as: [DESCRIBE YOUR APPLICATION, SCREENS,
+AND USER FLOWS]. Deliver: (1) heuristic evaluation using Nielsen's 10 usability
+heuristics with specific violations found and severity ratings (P0 to P3), (2) cognitive load
+analysis — where users will struggle, with recommendations, (3) visual hierarchy audit
+— are the most important elements visually prominent, (4) consistency audit — are
+patterns applied consistently across the app, (5) accessibility audit — WCAG 2.2 AA
+compliance gaps with specific issues, (6) mobile UX audit — touch targets, thumb zones,
+gestures, and viewport usage, (7) trust and credibility audit — does the design inspire
+confidence, (8) content audit — is the copy clear and helpful, (9) competitive benchmark
+— how does the UX compare to 3 competitors, (10) a prioritized fix list ranked by impact
+and effort with a matrix visual, and (11) 5 "quick wins" that can be implemented in under
+1 developer-day each. Format as a professional UX audit report.```
+**REFERENCE – ENGLISH:**
+This prompt is used when you need a structured critique of your application's UX,
+whether from an internal review or as if from an external expert. It solves the problem of
+vague feedback like "the design feels off" without actionable recommendations. The
+practical application is a prioritized audit that focuses engineering effort on the highestimpact fixes. Beneficial for product managers, UX designers, frontend leads, founders
+before funding rounds or launch, and consultants auditing client projects.
+**REFERENCE – HINDI + ENGLISH:**
+Yeh prompt tab use karo jab aapko apni application ke UX ka structured critique chahiye
+— internal review ya external expert ki tarah. Bahut feedback vague hota hai — "design
+feels off" jaisa, koi actionable recommendation nahi hoti. Isse complete UX audit report
+milegi — Nielsen's 10 heuristics pe specific violations with severity ratings (P0-P3),
+cognitive load analysis, visual hierarchy audit, consistency audit, WCAG 2.2 AA
+accessibility gaps, mobile UX audit, trust audit, content audit, competitive benchmark,
+prioritized fix list (impact vs effort matrix), aur 5 quick wins (each under 1 developer-day)
+ke saath. Product managers, UX designers, frontend leads, funding rounds ya launch se
+pehle founders, aur client projects audit karne wale consultants ke liye bahut valuable
+hai.
+---
+**PROMPT CODE: WA-074
+**DIFFICULTY: ADVANCED
+**EMOJI:** 🎯
+**PROMPT:**```
+Act as a principal UX architect designing a multi-persona enterprise web application. My
+application serves multiple user types with different needs: [DESCRIBE USER TYPES
+AND THEIR NEEDS]. Design a complete multi-persona UX architecture that supports all
+of them without compromise. Deliver: (1) a persona-needs-to-feature matrix showing
+coverage, (2) a "role-based interface" design strategy — which features appear for which
+roles, and how the same feature adapts, (3) a personalization architecture — user
+preferences, saved views, custom dashboards, workspace settings — with data model
+implications, (4) an information architecture that scales as roles grow — navigation that
+doesn't explode as features are added, (5) a permissions-aware UI design — how to
+show capabilities, hide unauthorized actions, and handle permission-denied gracefully,
+(6) design patterns for switching between role views or contexts within one account, (7) a
+"power user vs casual user" strategy — progressive disclosure, keyboard shortcuts,
+command palette — that satisfies both without confusing either, (8) enterprise features
+UX — SSO login, audit log views, team management, billing administration — with user
+flows, (9) internationalization-aware UX considerations for multilingual enterprise
+deployments, (10) a training and help system design — in-app help, tooltips,
+documentation, video tutorials, chat support integration, and (11) a design governance
+model for managing the UI as the product grows. My application is: [DESCRIBE
+APPLICATION, USER ROLES, ENTERPRISE FEATURES].
+```
+**REFERENCE – ENGLISH:**
+This prompt is used when building enterprise-grade applications serving multiple
+personas — admins, managers, end users, support — where a one-size-fits-all UI fails
+everyone. It solves the problem of complex enterprise UX that overwhelms casual users
+while frustrating power users. The practical application is a documented multi-persona
+UX architecture that scales gracefully. Beneficial for principal UX designers, product
+managers at enterprise SaaS companies, and frontend architects designing complex
+applications.
+**REFERENCE – HINDI + ENGLISH:**Yeh prompt tab use karo jab enterprise-grade application bana rahe ho jo multiple
+personas serve karti ho — admins, managers, end users, support — jahan one-size-fitsall UI sabke liye fail hoti hai. Complex enterprise UX aksar casual users ko overwhelm
+karti hai aur power users ko frustrate karti hai. Isse complete multi-persona UX
+architecture milegi — persona-needs-to-feature matrix, role-based interface strategy,
+personalization architecture (saved views, custom dashboards), scalable IA,
+permissions-aware UI design, role switching patterns, power user vs casual user
+strategy (progressive disclosure, keyboard shortcuts, command palette), enterprise
+features UX (SSO, audit logs, team management), i18n considerations, training/help
+system design, aur design governance model ke saath. Principal UX designers,
+enterprise SaaS product managers, aur complex applications design karne wale frontend
+architects ke liye bahut advanced aur valuable prompt hai.
+---
+**PROMPT CODE: WA-075
+**DIFFICULTY: ADVANCED
+**EMOJI:** 🚀
+**PROMPT:**
+```
+You are a strategic design leader establishing a complete UI/UX design operations
+(DesignOps) framework for a scaling web application team. My team context is:
+[DESCRIBE TEAM SIZE, DESIGN-DEVELOPMENT RELATIONSHIP, CURRENT
+PROCESSES, PAIN POINTS]. Deliver: (1) a design process maturity assessment with
+current state vs target state across people, process, tools, and culture, (2) a complete
+design workflow — from problem framing → research → ideation → prototyping →
+design review → dev handoff → QA → post-launch measurement — with responsibilities
+and RACI per step, (3) design system operations — how components are proposed,
+reviewed, versioned, and deprecated with contribution guidelines, (4) a design-devcollaboration model — Figma-to-code workflow, design token pipeline, spec handoff
+format, and how to handle "design doesn't match implementation" conflicts, (5) critique
+and feedback culture — meeting formats, feedback frameworks (I like/I wish/What if),
+and how to make critique psychologically safe, (6) design quality gates — what must be
+validated before design can be shipped, with a checklist, (7) tooling strategy — Figma
+organization, prototyping, usability testing, user research, session recording, analytics
+integration — with tool comparison and monthly cost in INR and USD, (8) design metrics
+— how to measure design's business impact (conversion, task success, NPS, activation,
+retention), (9) hiring and growth plans for UX team roles as the team scales from 5 to 25
+people, (10) a documentation and knowledge management strategy, (11) a 12-month
+DesignOps implementation roadmap with quarterly milestones, and (12) the 5 most
+common DesignOps failure modes and how to avoid them. My team context is:
+[DESCRIBE CONTEXT].
+```
+**REFERENCE – ENGLISH:**
+This prompt is used by design leaders, heads of product, and CTOs scaling a team that
+needs to move beyond ad hoc design practices. It solves the problem of design chaos —
+unclear ownership, inconsistent quality, dev-design friction, and design that isn't
+measured for business impact. The practical application is a strategic operations
+framework that professionalizes design as a discipline. Beneficial for design leads,
+product leaders, CTOs, and directors at companies scaling from 5 to 25+ person teams.
+**REFERENCE – HINDI + ENGLISH:**
+Yeh prompt design leaders, heads of product, aur CTOs ke liye hai jo team ko scale kar
+rahe hain aur ad hoc design practices se aage jaana chahte hain. Design chaos ki
+problem solve karta hai — unclear ownership, inconsistent quality, dev-design friction,
+aur business impact measure nahi hota. Isse complete DesignOps framework milega —
+maturity assessment, end-to-end design workflow with RACI, design system operations
+(contribution, versioning, deprecation), design-dev collaboration model (Figma-to-code
+pipeline, spec handoff), critique culture, design quality gates, tooling strategy with INR +
+USD costs, design business metrics (conversion, task success, NPS, activation), hiringplans for 5 to 25 people scaling, documentation strategy, 12-month implementation
+roadmap, aur top 5 DesignOps failure modes ke saath. Design leads, product leaders,
+CTOs, aur directors ke liye yeh advanced strategic prompt bahut valuable hai.
+---
+**END OF CHAPTER 05**
+**Batch 5 Complete: WA-061 to WA-075**
+**Progress: 75 of 1000 prompts complete**
+**Next Batch: WA-076 to WA-090 (Chapter 06 – 🖥 HTML Development)**
+---
+*To continue, reply "CONTINUE" and I will generate Chapter 06 (WA-076 to WA-090)
+covering HTML Development with relevant emojis.*
